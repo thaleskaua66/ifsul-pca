@@ -8,8 +8,23 @@ dias
 
 */
 
+#include <stdio.h>
+
 int main(int argc, char const *argv[])
 {
-    /* code */
+    int semanas;
+    int meses;
+    int dias;
+
+    printf("Semanas de gestacao: ");
+    scanf("%d", &semanas);
+
+    dias = semanas * 7;
+    meses = dias / 30;
+    dias = dias % 30;
+
+    printf("Meses: %d\n", meses);
+    printf("Dias: %d\n", dias);
+
     return 0;
 }
