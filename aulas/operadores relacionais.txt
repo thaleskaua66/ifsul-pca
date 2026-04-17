@@ -1,0 +1,26 @@
+1. Sabendo que os valores de x = 5, y = 3 e z = 4, mostre qual seria o resultado, 0 (Falso) ou
+1 (Verdadeiro), das expressões relacionais abaixo:
+a) x >= y*z; 0
+b) x < y + z; 1
+c) y + x > z + z; 0
+d) z + x == y * y; 1
+e) x / x != z % y; 1
+f) y * x <= x + z * z; 1
+
+2. Sabendo que os valores de a = 5, b = 4 e c = 3, mostre qual seria o resultado, 0 (Falso) ou
+1 (Verdadeiro), das expressões lógicas abaixo:
+a) (a > b) || (c > c); 1
+b) (a != b) && (b > c); 1
+c) (b < c) || (c > a); 0
+d) (c == b) && (a > b); 0
+e) !(a != a); 1
+f) !(b > c); 0
+
+3. Sabendo que os valores de x = 10, y = 5 e z = 2, mostre qual seria o resultado, 0 (Falso) ou
+1 (Verdadeiro), das expressões lógicas abaixo:
+a) (x >= y * z) || (x < y * z - 1); 1
+b) (z == x / y) && (x / y == x % y); 0
+c) (x % z >= z % x) || (x >= z * z); 1
+d) !(x + 3 < z * z + 2); 1
+e) !(x * z >= y * y); 1
+f) (x > z * z) && (-z * y > x - 3); 0
